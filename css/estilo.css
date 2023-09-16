@@ -36,5 +36,58 @@ p{
     /*retira as marcas do marcador*/
     list-style: none;
     /* alinhar links na horizontal*/
-    
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    padding: 0px 0px;
 }
+#estrutura #menu a{
+    /* a href*/
+    font-family: Arial;
+    font-size: 10pt;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    background-color: rgb(230, 43, 90);
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0px;
+}
+#estrutura #menu a:hover{ /*passar o mouse sobre o elemento*/
+    background-color: rgb(156, 26, 33);
+    color: white;
+}
+#estrutura #menu a.atual{/*item de menu selecionado*/
+    background-color: rgb(42, 99, 37);
+}
+#estrutura #conteudo h2{
+    font-family: Arial;
+    font-size: 14pt;
+    padding: 10px;
+}
+/*formatação para o texto*/
+#estrutura #conteudo .textohome{
+    font-family: Georgia;
+    font-size: 14pt;
+    line-height: 14pt;
+    padding-left: 20px;
+}
+#rodape {
+    padding: 20px 0px;
+    font-family: Arial;
+    background-color: rgb(230, 43, 90);
+    color: white;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+#estrutura #conteudo .imghome img{
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+}
+#estrutura #conteudo .imghome{
+    text-align: center;
+}
+/*forçando o rodapé para baixo*/
+.abaixar{clear: both;}
