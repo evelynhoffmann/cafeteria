@@ -18,5 +18,17 @@
     padding-top: 10px; /*espaçamento no topo*/
     padding-left: 10px; /*espaçamento a esquerda*/
     height: 350; /*altura*/
-    
+}
+/* criando uma classe no css, chamada titulo*/
+.titulo{
+    margin-top: 400px;
+}
+p{
+    text-align: justify; /*paragrafo*/
+    text-indent: 40px; /*recuo de paragrafo*/
+    font-family: Georgia Gothic;
+    font-size: 14pt;
+}
+#estrutura #menu ul{
+    padding: 0px; /* espaçamento*/
 }
