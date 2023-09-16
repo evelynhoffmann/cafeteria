@@ -11,7 +11,7 @@
 }
 #estrutura #titulo{
     background-image: url("../imagens/cafe2.jpg"); /*imagem dentro do titulo*/
-    background-position: -400px -380px;/*posiçção x, y*/
+    background-position: -400px -380px;/*posição x, y*/
     color: white;
     font-size: 15pt;
     font-family: Arial;
@@ -30,5 +30,11 @@ p{
     font-size: 14pt;
 }
 #estrutura #menu ul{
-    padding: 0px; /* espaçamento*/
+    padding: 1px;/* espaçamento*/
+}
+#estrutura #menu li{
+    /*retira as marcas do marcador*/
+    list-style: none;
+    /* alinhar links na horizontal*/
+    
 }
